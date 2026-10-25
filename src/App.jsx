@@ -1,11 +1,11 @@
-import Navbar from "./section/Navbar"
+import Navbar from "./section/navbar/Navbar"
 
 
 function App() {
 
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
     </>
   )
 }
