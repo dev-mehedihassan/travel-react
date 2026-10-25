@@ -3,6 +3,7 @@ import './destination.css'
 import destinationVideoImage from "../../assets/images/destination_video.jpg"
 import { FaPlay } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
+import Image from '../../components/Image';
 
 
 const Destination = () => {
@@ -23,7 +24,7 @@ const Destination = () => {
             </p>
           </div>
           <div className="destination_video">
-            <img src={destinationVideoImage} alt="Destination Video" />
+            <Image source={destinationVideoImage} alt="Destination Video" />
             <a href="#" className="destination_video_icon">
               <FaPlay />
             </a>

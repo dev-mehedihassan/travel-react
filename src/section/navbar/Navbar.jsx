@@ -5,6 +5,40 @@ import { FaMessage } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
+import Image from '../../components/Image';
+
+const data = [
+    {
+        id: 1,
+        label: "home",
+        url: "#"
+    },
+    {
+        id: 2,
+        label: "pages",
+        url: "#"
+    },
+    {
+        id: 3,
+        label: "travel",
+        url: "#"
+    },
+    {
+        id: 4,
+        label: "blog",
+        url: "#"
+    },
+    {
+        id: 5,
+        label: "shop",
+        url: "#"
+    },
+    {
+        id: 6,
+        label: "lements",
+        url: "#"
+    }
+]
 
 
 const Navbar = () => {
@@ -14,17 +48,17 @@ const Navbar = () => {
         <div className="nav_wrapper">
           <div className="logo">
             <a href="#">
-              <img src={logo} alt="logo" />
+              <Image source={logo} alt="logo" />
             </a>
           </div>
           <div className="menu">
             <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">PAGES</a></li>
-              <li><a href="#">TRAVEL</a></li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">SHOP</a></li>
-              <li><a href="#">LEMENTS</a></li>
+              {data.map((item, index)=>(
+                <li key={index}>
+                  <a href={item.url}>{item.label}</a>
+                </li>
+              ))
+              }
             </ul>
           </div>
           <div className="nav_actions">
