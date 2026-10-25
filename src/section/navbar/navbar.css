@@ -46,9 +46,9 @@
     align-items: center;
     justify-content: center;
 }
-.nav_action_item i{
+.nav_action_item svg{
     color: #036E8A;
-    font-size: 8px;
+    font-size: 10px;
 }
 .paragraph{
     font-family: "Montserrat", sans-serif;
