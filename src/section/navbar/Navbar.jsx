@@ -6,6 +6,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import Image from '../../components/Image';
+import Anchor from '../../components/Anchor';
 
 const data = [
     {
@@ -47,24 +48,26 @@ const Navbar = () => {
       <div className="container">
         <div className="nav_wrapper">
           <div className="logo">
-            <a href="#">
+            <Anchor href="/">
               <Image source={logo} alt="logo" />
-            </a>
+            </Anchor>
           </div>
           <div className="menu">
             <ul>
               {data.map((item, index)=>(
                 <li key={index}>
-                  <a href={item.url}>{item.label}</a>
+                  <Anchor href={item.url}>
+                    {item.label}
+                  </Anchor>
                 </li>
               ))
               }
             </ul>
           </div>
           <div className="nav_actions">
-            <a href="#" className="nav_action_item">
+            <Anchor href={"#"} style={"nav_action_item"}>
               <FaMessage />
-            </a>
+            </Anchor>
             <div className="nav_action_item">
               <FaLocationArrow />
             </div>

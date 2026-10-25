@@ -4,6 +4,7 @@ import destinationVideoImage from "../../assets/images/destination_video.jpg"
 import { FaPlay } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import Image from '../../components/Image';
+import Anchor from '../../components/Anchor';
 
 
 const Destination = () => {
@@ -25,9 +26,9 @@ const Destination = () => {
           </div>
           <div className="destination_video">
             <Image source={destinationVideoImage} alt="Destination Video" />
-            <a href="#" className="destination_video_icon">
-              <FaPlay />
-            </a>
+            <Anchor href={"#"} style={"destination_video_icon"}>
+                <FaPlay />
+            </Anchor>
           </div>
         </div>
         <div className="book_now">
@@ -47,7 +48,9 @@ const Destination = () => {
               <span>$125,99</span>
             </div>
           </div>
-          <a href="#" className="book_now_btn">BOOK NOW</a>
+          <Anchor href={"#"} style={"book_now_btn"}>
+            BOOK NOW
+          </Anchor>
         </div>
       </div>
     </section>
