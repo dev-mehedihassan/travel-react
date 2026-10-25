@@ -3,6 +3,7 @@ import './banner.css'
 import bannerImage from '../../assets/images/banner.png'
 import { IoIosSearch } from "react-icons/io";
 import { LuMapPin } from "react-icons/lu";
+import Paragraph from '../../components/Paragraph';
 
 
 const Banner = () => {
@@ -14,11 +15,10 @@ const Banner = () => {
             CHOOSE <br />
             THE PERFECT DESTINATIONS.
           </h1>
-          <p className="paragraph">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          <Paragraph style={"paragraph"}
+          text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-          </p>
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation." />
           <form>
             <div className="form_inner">
               <div className="banner_search">

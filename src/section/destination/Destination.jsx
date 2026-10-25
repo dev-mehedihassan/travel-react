@@ -5,6 +5,7 @@ import { FaPlay } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import Image from '../../components/Image';
 import Anchor from '../../components/Anchor';
+import Paragraph from '../../components/Paragraph';
 
 
 const Destination = () => {
@@ -18,11 +19,10 @@ const Destination = () => {
               CHOOSE <br />
               THE PERFECT ACCOMMODATION.
             </h2>
-            <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            <Paragraph style={"paragraph"}
+            text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
-            </p>
+              erat volutpat." />
           </div>
           <div className="destination_video">
             <Image source={destinationVideoImage} alt="Destination Video" />
@@ -44,7 +44,8 @@ const Destination = () => {
               </div>
             </div>
             <div className="price">
-              <p className="paragraph">Tour Price</p>
+              <Paragraph style={"paragraph"}
+              text="Tour Price" />
               <span>$125,99</span>
             </div>
           </div>
