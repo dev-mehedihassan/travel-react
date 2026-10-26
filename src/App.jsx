@@ -4,6 +4,7 @@ import Counter from "./section/counter/Counter"
 import Destination from "./section/destination/Destination"
 import Destination2 from "./section/destination2/Destination2"
 import Gallery from "./section/gallery/Gallery"
+import Message from "./section/message/Message"
 import Navbar from "./section/navbar/Navbar"
 import Newsletter from "./section/newsletter/Newsletter"
 import Package from "./section/package/Package"
@@ -24,6 +25,7 @@ function App() {
       <Newsletter />
       <Brand />
       <Review />
+      <Message />
     </>
   )
 }
