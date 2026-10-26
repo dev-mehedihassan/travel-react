@@ -1,4 +1,5 @@
 import Banner from "./section/banner/Banner"
+import Counter from "./section/counter/Counter"
 import Destination from "./section/destination/Destination"
 import Destination2 from "./section/destination2/Destination2"
 import Gallery from "./section/gallery/Gallery"
@@ -16,6 +17,7 @@ function App() {
       <Package />
       <Destination2 />
       <Gallery />
+      <Counter />
     </>
   )
 }

@@ -1,0 +1,29 @@
+#counter{
+    padding: 90px 0 120px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 555;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 22%;
+}
+.counter_item h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: normal;
+    color: #707070;
+}
+.counter_item span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    color: #707070;
+}
