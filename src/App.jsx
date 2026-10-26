@@ -4,6 +4,7 @@ import Destination from "./section/destination/Destination"
 import Destination2 from "./section/destination2/Destination2"
 import Gallery from "./section/gallery/Gallery"
 import Navbar from "./section/navbar/Navbar"
+import Newsletter from "./section/newsletter/Newsletter"
 import Package from "./section/package/Package"
 
 
@@ -18,6 +19,7 @@ function App() {
       <Destination2 />
       <Gallery />
       <Counter />
+      <Newsletter />
     </>
   )
 }
