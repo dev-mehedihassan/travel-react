@@ -1,0 +1,30 @@
+#brand{
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 555;
+}
+.brand_wrapper{
+    border: 3px solid #036E8A;
+    border-radius: 15px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand_item{
+    position: relative;
+}
+.brand_item::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -63px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 73px;
+    border-radius: 5px;
+    background: #036E8A;
+}
+.brand_item:last-child::after{
+    background: transparent;
+}
