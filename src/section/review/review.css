@@ -1,0 +1,93 @@
+#review{
+    padding-bottom: 155px;
+}
+.review_heading .sec_title{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.review_heading .paragraph{
+    max-width: 830px;
+    margin: 0 auto;
+    color: #000000;
+    text-align: center;
+}
+.review_wrapper{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 72px;
+    row-gap: 77px;
+}
+.review_item{
+    width: 538px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 40px 59px;
+    box-shadow: -1px 0 17px -4px rgba(0,0,0,0.15);
+    transition: all linear 0.3s;
+}
+.review_img{
+    width: 113px;
+    height: 113px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.review_content{
+    margin-top: 26px;
+    text-align: center;
+}
+.review_content h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: normal;
+    color: #036E8A;
+}
+.review_content h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+    color: #262525;
+}
+.review_rating{
+    margin: 8px 0 20px 0;
+    color: #FF8000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.review_content .paragraph{
+    color: #000000;
+}
+.review_item:nth-child(odd):hover{
+    background: #036E8A;
+}
+.review_item:nth-child(odd):hover .review_content h4, .review_item:nth-child(odd):hover .review_content h5, .review_item:nth-child(odd):hover .review_content .review_rating, .review_item:nth-child(odd):hover .review_content .paragraph, .review_item:nth-child(even):hover .review_content h4, .review_item:nth-child(even):hover .review_content h5, .review_item:nth-child(even):hover .review_content .review_rating, .review_item:nth-child(even):hover .review_content .paragraph{
+    color: #FFF;
+}
+.review_item:nth-child(even):hover{
+    background: #FF8000;
+}
+.review_shape{
+    position: relative;
+}
+.review_shape img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+.review_container{
+    position: relative;
+    z-index: 555;
+}

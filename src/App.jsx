@@ -7,6 +7,7 @@ import Gallery from "./section/gallery/Gallery"
 import Navbar from "./section/navbar/Navbar"
 import Newsletter from "./section/newsletter/Newsletter"
 import Package from "./section/package/Package"
+import Review from "./section/review/Review"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Counter />
       <Newsletter />
       <Brand />
+      <Review />
     </>
   )
 }
