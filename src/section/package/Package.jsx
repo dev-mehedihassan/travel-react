@@ -39,24 +39,6 @@ const features = [
   },
 ];
 
-const packages = [
-  {
-    id: 1,
-    name: "STARTER",
-    price: "$9",
-  },
-  {
-    id: 2,
-    name: "STANDARD",
-    price: "$199",
-  },
-  {
-    id: 3,
-    name: "PREMIUM",
-    price: "$499",
-  },
-];
-
 const Package = () => {
   return (
     <section id="package">
