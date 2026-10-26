@@ -3,6 +3,7 @@ import Brand from "./section/brand/Brand"
 import Counter from "./section/counter/Counter"
 import Destination from "./section/destination/Destination"
 import Destination2 from "./section/destination2/Destination2"
+import Footer from "./section/footer/Footer"
 import Gallery from "./section/gallery/Gallery"
 import Message from "./section/message/Message"
 import Navbar from "./section/navbar/Navbar"
@@ -26,6 +27,7 @@ function App() {
       <Brand />
       <Review />
       <Message />
+      <Footer />
     </>
   )
 }

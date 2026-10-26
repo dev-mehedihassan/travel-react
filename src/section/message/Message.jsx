@@ -7,14 +7,14 @@ import Paragraph from '../../components/Paragraph'
 const Message = () => {
   return (
     <section id="message">
-      <div class="container">
-        <div class="message_mainbox">
-          <div class="message_wrapper">
+      <div className="container">
+        <div className="message_mainbox">
+          <div className="message_wrapper">
             <h2>How can we help?</h2>
             <Paragraph style={"paragraph"}
             text="Our service team is available every day 24/7 Free diagnostics for
               all types of work." />
-            <div class="message_Btn">
+            <div className="message_Btn">
               <button>Message Us!</button>
             </div>
           </div>
