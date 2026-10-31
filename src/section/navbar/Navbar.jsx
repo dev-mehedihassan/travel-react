@@ -7,39 +7,8 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 import Image from '../../components/Image';
 import Anchor from '../../components/Anchor';
+import { menuData } from '../../dummyData/menuData';
 
-const data = [
-    {
-        id: 1,
-        label: "home",
-        url: "#"
-    },
-    {
-        id: 2,
-        label: "pages",
-        url: "#"
-    },
-    {
-        id: 3,
-        label: "travel",
-        url: "#"
-    },
-    {
-        id: 4,
-        label: "blog",
-        url: "#"
-    },
-    {
-        id: 5,
-        label: "shop",
-        url: "#"
-    },
-    {
-        id: 6,
-        label: "lements",
-        url: "#"
-    }
-]
 
 
 const Navbar = () => {
@@ -54,7 +23,7 @@ const Navbar = () => {
           </div>
           <div className="menu">
             <ul>
-              {data.map((item, index)=>(
+              {menuData.map((item, index)=>(
                 <li key={index}>
                   <Anchor href={item.url}>
                     {item.label}
