@@ -1,0 +1,118 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6366f1, #a855f7);
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  color: #1e293b;
+  margin-bottom: 24px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.btn-decrement {
+  flex: 1;
+  padding: 12px;
+  background: #f43f5e;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15.2px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(244, 63, 94, 0.3);
+  transition: all linear 0.3s;
+}
+
+.btn-decrement:hover {
+  background: #e11d48;
+}
+
+.btn-decrement:active {
+  transform: scale(0.97);
+}
+
+.btn-increment {
+  flex: 1;
+  padding: 12px;
+  background: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15.2px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  transition: all linear 0.3s;
+}
+
+.btn-increment:hover {
+  background: #059669;
+}
+
+.btn-increment:active {
+  transform: scale(0.97);
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input {
+  width: 100%;
+  padding: 12px 42px 12px 14px;
+  border-radius: 10px;
+  border: 2px solid #e2e8f0;
+  outline: none;
+  font-size: 15.2px;
+  background-color: #f8fafc;
+  color: #334155;
+  transition: all linear 0.3s;
+}
+
+.password-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.eye-btn {
+  position: absolute;
+  right: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #64748b;
+  font-size: 17.6px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  transition: all linear 0.3s;
+}
+
+.eye-btn:hover {
+  color: #1e293b;
+}

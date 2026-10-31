@@ -10,6 +10,7 @@ import Navbar from "./section/navbar/Navbar"
 import Newsletter from "./section/newsletter/Newsletter"
 import Package from "./section/package/Package"
 import Review from "./section/review/Review"
+import Test from "./section/test/Test"
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Review />
       <Message />
       <Footer />
+      <Test />
     </>
   )
 }
