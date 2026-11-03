@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from '../../components/Image'
-import newsletterGalSmall from "../../assets/images/newsletter_gal_small.png" 
-import newsletterGalLg from "../../assets/images/newsletter_gal_lg.png"
-import newsletterBox from "../../assets/images/newsletter_box.png"
-import Form from '../../components/Form'
+import Image from '../components/Image'
+import newsletterGalSmall from "../assets/images/newsletter_gal_small.png" 
+import newsletterGalLg from "../assets/images/newsletter_gal_lg.png"
+import newsletterBox from "../assets/images/newsletter_box.png"
+import Form from '../components/Form'
 
 
 const Newsletter = () => {

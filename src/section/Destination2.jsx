@@ -1,8 +1,8 @@
 import React from 'react'
-import Image from '../../components/Image'
-import destination2 from "../../assets/images/destination2.png"
-import destination2Shape from "../../assets/images/destination2_shape.svg"
-import Paragraph from '../../components/Paragraph'
+import Image from '../components/Image'
+import destination2 from "../assets/images/destination2.png"
+import destination2Shape from "../assets/images/destination2_shape.svg"
+import Paragraph from '../components/Paragraph'
 
 const Destination2 = () => {
   return (

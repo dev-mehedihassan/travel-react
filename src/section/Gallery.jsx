@@ -1,15 +1,15 @@
 import React from 'react'
-import Image from '../../components/Image'
-import packageShape from "../../assets/images/package_shape.png"
-import galLarge1 from "../../assets/images/gal_large1.png"
-import galLarge2 from "../../assets/images/gal_large2.png"
-import galLarge3 from "../../assets/images/gal_large3.png"
-import galLarge4 from "../../assets/images/gal_large4.png"
-import galSmall1 from "../../assets/images/gal_small1.png"
-import galSmall2 from "../../assets/images/gal_small2.png"
-import galSmall3 from "../../assets/images/gal_small3.png"
-import galSmall4 from "../../assets/images/gal_small4.png"
-import Paragraph from '../../components/Paragraph'
+import Image from '../components/Image'
+import packageShape from "../assets/images/package_shape.png"
+import galLarge1 from "../assets/images/gal_large1.png"
+import galLarge2 from "../assets/images/gal_large2.png"
+import galLarge3 from "../assets/images/gal_large3.png"
+import galLarge4 from "../assets/images/gal_large4.png"
+import galSmall1 from "../assets/images/gal_small1.png"
+import galSmall2 from "../assets/images/gal_small2.png"
+import galSmall3 from "../assets/images/gal_small3.png"
+import galSmall4 from "../assets/images/gal_small4.png"
+import Paragraph from '../components/Paragraph'
 
 const Gallery = () => {
   return (

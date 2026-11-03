@@ -1,10 +1,10 @@
 import React from 'react'
-import packageShape from "../../assets/images/package_shape.png"
-import Image from '../../components/Image';
-import Paragraph from '../../components/Paragraph';
+import packageShape from "../assets/images/package_shape.png"
+import Image from '../components/Image';
+import Paragraph from '../components/Paragraph';
 import { GoCheckCircleFill } from "react-icons/go";
-import Anchor from '../../components/Anchor';
-import { features } from '../../dummyData/packageData';
+import Anchor from '../components/Anchor';
+import { features } from '../dummyData/packageData';
 
 const Package = () => {
   return (

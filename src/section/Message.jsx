@@ -1,7 +1,7 @@
 import React from 'react'
-import messageShape from "../../assets/images/message_shape.png"
-import Image from '../../components/Image'
-import Paragraph from '../../components/Paragraph'
+import messageShape from "../assets/images/message_shape.png"
+import Image from '../components/Image'
+import Paragraph from '../components/Paragraph'
 
 const Message = () => {
   return (

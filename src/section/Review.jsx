@@ -1,13 +1,13 @@
 import React from 'react'
-import Image from '../../components/Image'
-import packageShape from "../../assets/images/package_shape.png"
-import Paragraph from '../../components/Paragraph'
-import customer1 from "../../assets/images/customer1.png"
-import customer2 from "../../assets/images/customer2.png"
-import customer3 from "../../assets/images/customer3.png"
-import customer4 from "../../assets/images/customer4.png"
-import customer5 from "../../assets/images/customer5.png"
-import customer6 from "../../assets/images/customer6.png"
+import Image from '../components/Image'
+import packageShape from "../assets/images/package_shape.png"
+import Paragraph from '../components/Paragraph'
+import customer1 from "../assets/images/customer1.png"
+import customer2 from "../assets/images/customer2.png"
+import customer3 from "../assets/images/customer3.png"
+import customer4 from "../assets/images/customer4.png"
+import customer5 from "../assets/images/customer5.png"
+import customer6 from "../assets/images/customer6.png"
 import { FaStar } from "react-icons/fa";
 
 const Review = () => {

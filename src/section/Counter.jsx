@@ -1,5 +1,5 @@
 import React from 'react'
-import counter from '../../assets/images/counter.png'
+import counter from '../assets/images/counter.png'
 
 const Counter = () => {
   return (

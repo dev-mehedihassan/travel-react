@@ -1,10 +1,10 @@
 import React from 'react'
-import destinationVideoImage from "../../assets/images/destination_video.jpg"
+import destinationVideoImage from "../assets/images/destination_video.jpg"
 import { FaPlay } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
-import Image from '../../components/Image';
-import Anchor from '../../components/Anchor';
-import Paragraph from '../../components/Paragraph';
+import Image from '../components/Image';
+import Anchor from '../components/Anchor';
+import Paragraph from '../components/Paragraph';
 
 
 const Destination = () => {

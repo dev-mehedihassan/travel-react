@@ -1,7 +1,7 @@
 import React from 'react'
-import bannerImage from '../../assets/images/banner.png'
-import Form from '../../components/Form'
-import Paragraph from '../../components/Paragraph';
+import bannerImage from '../assets/images/banner.png'
+import Form from '../components/Form'
+import Paragraph from '../components/Paragraph';
 
 
 const Banner = () => {

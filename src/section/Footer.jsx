@@ -1,11 +1,11 @@
 import React from 'react'
-import Paragraph from '../../components/Paragraph'
+import Paragraph from '../components/Paragraph'
 import { FaMessage } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
-import Anchor from '../../components/Anchor';
-import { quickLinks, legalStuff, ourTeam, featuredServices } from '../../dummyData/footerData';
+import Anchor from '../components/Anchor';
+import { quickLinks, legalStuff, ourTeam, featuredServices } from '../dummyData/footerData';
 
 const Footer = () => {
   return (

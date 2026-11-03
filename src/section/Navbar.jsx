@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../../assets/images/logo.png'
+import logo from '../assets/images/logo.png'
 import { FaMessage } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
-import Image from '../../components/Image';
-import Anchor from '../../components/Anchor';
-import { menuData } from '../../dummyData/menuData';
+import Image from '../components/Image';
+import Anchor from '../components/Anchor';
+import { menuData } from '../dummyData/menuData';
 
 
 

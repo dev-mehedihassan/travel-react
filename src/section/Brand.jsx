@@ -1,9 +1,9 @@
 import React from 'react'
-import brand1 from "../../assets/images/brand1.png"
-import brand2 from "../../assets/images/brand2.png"
-import brand3 from "../../assets/images/brand3.png"
-import brand4 from "../../assets/images/brand4.png"
-import Image from '../../components/Image'
+import brand1 from "../assets/images/brand1.png"
+import brand2 from "../assets/images/brand2.png"
+import brand3 from "../assets/images/brand3.png"
+import brand4 from "../assets/images/brand4.png"
+import Image from '../components/Image'
 
 const Brand = () => {
   return (
