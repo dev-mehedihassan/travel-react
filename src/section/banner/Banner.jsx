@@ -13,7 +13,7 @@ const Banner = () => {
             CHOOSE <br />
             THE PERFECT DESTINATIONS.
           </h1>
-          <Paragraph style="paragraph mt-[24px]"
+          <Paragraph style="paragraph text-[#FFFFFF] mt-[24px]"
           text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation." />
