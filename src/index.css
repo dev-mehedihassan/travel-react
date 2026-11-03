@@ -1,21 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-ul,ol,dl{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-}
-h1,h2,h3,h4,h5,h6,p{
-    line-height: 0.8;
-}
-.container{
-    width: 1148px;
-    margin: 0 auto;
-}
+@import "tailwindcss";
+
 .sec_subtitle{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
