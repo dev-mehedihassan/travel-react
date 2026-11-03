@@ -1,18 +1,33 @@
 @import "tailwindcss";
 
-.sec_subtitle{
-    font-family: "Montserrat", sans-serif;
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-primary: #036E8A;
+  --color-map-orange: #FF8000;
+}
+
+.sec_subtitle {
+    font-family: var(--font-montserrat);
     font-weight: 400;
     font-size: 30px;
     line-height: normal;
     text-transform: uppercase;
     color: #000000;
 }
-.sec_title{
-    font-family: "Montserrat", sans-serif;
+
+.sec_title {
+    font-family: var(--font-montserrat);
     font-weight: 700;
     font-size: 55px;
     line-height: normal;
     text-transform: uppercase;
-    color: #036E8A;
+    color: var(--color-primary);
+}
+
+.paragraph {
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #FFF;
 }

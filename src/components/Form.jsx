@@ -11,7 +11,7 @@ const Form = ({ type }) => {
             <input
               type="text"
               placeholder="Enter Your Location"
-              className="w-full h-full outline-none border-none font-montserrat font-normal text-[20px] pl-[95px] pr-[40px] text-primary placeholder:text-primary"
+              className="w-full h-full outline-none border-none font-montserrat font-normal text-[20px] pl-[95px] pr-[40px] text-primary placeholder:text-primary bg-white"
             />
             <IoIosSearch className="text-primary absolute top-1/2 left-[24px] -translate-y-1/2 text-[32px]" />
           </div>
@@ -31,7 +31,7 @@ const Form = ({ type }) => {
           <input
             type="email"
             placeholder="Enter Your Email"
-            className="w-[340px] border border-primary rounded-[15px] py-[28px] px-[63px] font-montserrat font-normal text-[20px] leading-normal text-primary outline-none placeholder:text-primary"
+            className="w-[340px] border border-primary rounded-[15px] py-[28px] px-[63px] font-montserrat font-normal text-[20px] leading-normal text-primary outline-none placeholder:text-primary bg-white"
           />
           <BsEnvelope className="absolute top-1/2 left-0 translate-x-[70%] -translate-y-1/2 text-[30px] text-primary" />
         </div>
