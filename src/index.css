@@ -4,6 +4,8 @@
   --font-montserrat: "Montserrat", sans-serif;
   --color-primary: #036E8A;
   --color-map-orange: #FF8000;
+  --text-package-heading: 40px;
+  --text-package-price: 60px;
 }
 
 .sec_subtitle {
